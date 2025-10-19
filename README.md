@@ -1,7 +1,7 @@
 # Hollow Knight Mod Menu In Python
 
 ## ShowCase 
-<img src="https://github.com/pirate6581/Hollow-Knight-PyMod-Menu-/blob/main/preview/infinite_sould.gif?raw=true" alt="ISoul" width="500"/>
+<img src="https://github.com/pirate6581/Hollow-Knight-PyMod-Menu-/blob/main/preview/infinite_soul.gif?raw=true" alt="ISoul" width="500"/>
 <img src="https://github.com/pirate6581/Hollow-Knight-PyMod-Menu-/blob/main/preview/infinite_jump.gif?raw=true" alt="Infinite Jump" width="500"/>
 <img src="https://github.com/pirate6581/Hollow-Knight-PyMod-Menu-/blob/main/preview/invincible.gif?raw=true" alt="Invincible" width="500"/>
 
