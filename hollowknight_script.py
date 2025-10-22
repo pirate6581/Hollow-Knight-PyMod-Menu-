@@ -9,8 +9,17 @@ import sys
 process_name = "hollow_knight.exe"
 module_name = "UnityPlayer.dll"
 
-pm = pymem.Pymem(process_name)
-module_base = pymem.process.module_from_name(pm.process_handle, module_name).lpBaseOfDll
+while True:
+
+    try:
+        pm = pymem.Pymem(process_name)
+        module_base = pymem.process.module_from_name(pm.process_handle, module_name).lpBaseOfDll
+        break
+        
+    except:
+        print("Make Sure The Game is Running and Save File has been Loaded") 
+        input("Press Any Key to try again: ")
+        os.system('cls')
 
 pointer_offsets = [0x0, 0xD8, 0x268, 0xC8]
 base_address = module_base + 0x019B8900
